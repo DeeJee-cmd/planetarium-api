@@ -6,3 +6,5 @@ db.sqlite3
 *.svg
 .git/
 .gitignore
+env/
+.venv/
