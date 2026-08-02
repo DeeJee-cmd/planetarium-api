@@ -1,16 +1,15 @@
-from planetarium.models.astronomy_show_model import AstronomyShow
-from planetarium.models.show_theme_model import ShowTheme
-from planetarium.models.ticket_model import Ticket
-from planetarium.models.planetarium_dome_model import PlanetariumDome
-from planetarium.models.reservation_model import Reservation
-from planetarium.models.show_session_model import ShowSession
-
+from .show_theme_model import ShowTheme
+from .planetarium_dome_model import PlanetariumDome
+from .reservation_model import Reservation
+from .astronomy_show_model import AstronomyShow
+from .show_session_model import ShowSession
+from .ticket_model import Ticket
 
 __all__ = [
-    "AstronomyShow",
     "ShowTheme",
-    "Ticket",
     "PlanetariumDome",
     "Reservation",
+    "AstronomyShow",
     "ShowSession",
+    "Ticket",
 ]
