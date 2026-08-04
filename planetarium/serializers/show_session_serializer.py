@@ -1,8 +1,7 @@
 from rest_framework import serializers
 
-from planetarium.models import ShowSession
-from .astronomy_show_serializer import AstronomyShowDetailSerializer
-from .planetarium_dome_serializer import PlanetariumDomeSerializer
+from planetarium.models.show_session_model import ShowSession
+from planetarium.serializers import AstronomyShowDetailSerializer, PlanetariumDomeSerializer
 
 
 class ShowSessionSerializer(serializers.ModelSerializer):

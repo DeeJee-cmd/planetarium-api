@@ -2,7 +2,7 @@ from django.db import transaction
 from rest_framework import serializers
 
 from planetarium.models import Reservation, Ticket
-from planetarium.serializers.ticket_serializer import TicketSerializer
+from planetarium.serializers import TicketSerializer
 
 
 class ReservationSerializer(serializers.ModelSerializer):
