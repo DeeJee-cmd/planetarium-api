@@ -1,6 +1,6 @@
 from django.db import models
 
-from planetarium.models import ShowTheme
+from .show_theme_model import ShowTheme
 
 
 class AstronomyShow(models.Model):

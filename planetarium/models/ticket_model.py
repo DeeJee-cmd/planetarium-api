@@ -1,10 +1,9 @@
 from django.db import models
 from rest_framework.exceptions import ValidationError
 
-from planetarium.models import (
-    ShowSession,
-    Reservation,
-)
+from .show_session_model import ShowSession
+from .reservation_model import Reservation
+
 
 
 class Ticket(models.Model):

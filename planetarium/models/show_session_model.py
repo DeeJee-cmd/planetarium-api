@@ -1,8 +1,6 @@
 from django.db import models
-from planetarium.models import (
-    AstronomyShow,
-    PlanetariumDome,
-)
+from .astronomy_show_model import AstronomyShow
+from .planetarium_dome_model import PlanetariumDome
 
 
 class ShowSession(models.Model):
